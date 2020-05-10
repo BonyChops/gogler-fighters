@@ -18,7 +18,6 @@ client.on('message', msg => {
     rankingMes.push(msg);
   }
   if (msg.content == '/happy') {
-      rankingMes = [];
       startRanking(msg.channel, msg);
   }
 /*   if(waitTeX){
@@ -74,7 +73,7 @@ const startRanking = async (channel, origMes) =>{
   };
   rankingMes[0].react('🤔');
   channel.send({ embed });
-
+  rankingMes = [];
 }
 
 const showResultTeX = (mes, orig) => {
