@@ -1,0 +1,23 @@
+{
+  "name": "gogler-fighters",
+  "version": "1.0.0",
+  "description": "Battle with gogler",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BonyChops/gogler-fighters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BonyChops/gogler-fighters/issues"
+  },
+  "homepage": "https://github.com/BonyChops/gogler-fighters#readme"
+}
