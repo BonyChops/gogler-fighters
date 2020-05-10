@@ -1,7 +1,7 @@
 import discord
 import json
 
-accessToken = json.load(open("accessToken.json", 'r'))['token']
+accessToken = json.load(open("accessToken.json", 'r'))['py']
 
 class MyClient(discord.Client):
     async def on_ready(self):
